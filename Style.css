@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanalei&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing Script: 300,400");
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+}
+
+.main-header {
+  background: linear-gradient(rgb(8, 59, 47), rgb(30, 119, 89));
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  color: rgb(245, 222, 222, 0.8);
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.page-header {
+  font-family: "Dancing Script";
+}
+
+.content-header {
+
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  padding: 5%;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 5px;
+  color: rgb(14, 12, 12, 0.7);
+  text-decoration: underline;
+}
+
+.nav a:hover {
+  background-color: rgb(36, 70, 78, 0.2);
+}
+
+.nav-header {
+  border-top: 0.2px solid rgb(119, 226, 57);
+  padding: 20px;
+  background: rgb(11, 172, 221);
+}
+
+.doc-section {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.main-footer {
+  background: rgb(36, 70, 78);
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: "Dancing Script";
+  font-weight: lighter;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+  color: white;
+}
+
+.footer-nav img {
+  width: 90px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.calculator {
+  display: block;
+  align-items: center;
+}
+
+.menu-nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.util-nav {
+  background-color: white;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.search-box {
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.search-btn {
+  font-size: 20px;
+  color: rgb(252, 54, 5);
+  float: right;
+  width: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  width: 0px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #0e3a10;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: none;
+  margin-left: 0.2px;
+  float: left;
+  width: 200px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
